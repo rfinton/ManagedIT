@@ -1,7 +1,7 @@
 ﻿function fly() {
     $('.plane').toggleClass('foldedPlane');
     page = location.href;
-    exp = new RegExp(/Page(1|9|10).html/i);
+    exp = new RegExp(/Page(1|9|10)\.html/i);
     res = exp.test(page);
 
     if (res == true) {
