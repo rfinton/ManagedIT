@@ -6,27 +6,27 @@ function fly() {
         var currentPage = location.href;
         
         switch(currentPage){
-            case "http://rfinton.github.io/ManagedIT/Page1.html":
+            case "http://rfinton.github.io/ManagedIT/html/Page1.html":
                 location.href = "Page2.html";
                 break;
                 
-            case "http://rfinton.github.io/ManagedIT/Page2.html":
+            case "http://rfinton.github.io/ManagedIT/html/Page2.html":
                 location.href = "Page3.html";
                 break;
                 
-            case "http://rfinton.github.io/ManagedIT/Page3.html":
+            case "http://rfinton.github.io/ManagedIT/html/Page3.html":
                 location.href = "Page4.html";
                 break;
                 
-            case "http://rfinton.github.io/ManagedIT/Page4.html":
+            case "http://rfinton.github.io/ManagedIT/html/Page4.html":
                 location.href = "Page5.html";
                 break;
                 
-            case "http://rfinton.github.io/ManagedIT/Page5.html":
+            case "http://rfinton.github.io/ManagedIT/html/Page5.html":
                 location.href = "Page6.html";
                 break;
                 
-            case "http://rfinton.github.io/ManagedIT/Page6.html":
+            case "http://rfinton.github.io/ManagedIT/html/Page6.html":
                 location.href = "Page7.html";
                 break;
                 
