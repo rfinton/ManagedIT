@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Managed IT Campaign</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="mobile.css" />
+    <link rel="stylesheet" href="animate.css" />
+    <script src="jquery-2.1.3.min.js"></script>
+</head>
+
+<body style="background-image:url(Images/Page05.jpg);">
+
+    <div id="content">
+
+        <div class="copy">
+            <p>5 of 7</p>
+            <p>When you think of expenses to manage IT staff, hardware, software, repair, replace, growth, etc..., what statement honestly fits your company the most? (Remember your responses are confidential)</p>
+        </div>
+
+        <div id="mySlider"></div>
+
+        <div id="slider">
+            <img class="sliderChoices" src="Images/sliderOptions07.png" alt="four" />
+            <ul>
+                <li class="q5">We don't usually budget for technology</li>
+                <li class="q5">Our technology budget is done departmentally</li>
+                <li class="q5">We have a fluctuating expense due to unexpected failures, software updates, staff, etc...</li>
+                <li class="q5">We have a pretty good handle on it without many surprises.</li>
+            </ul>
+        </div>
+
+        <form method="GET" class="mobileChoice" action="Page7.html">
+            <input type="radio" id="Qr1" name="q5" value="15" /><label for="Qr1">We don't usually budget for technology</label><br />
+            <input type="radio" id="Qr2" name="q5" value="5" /><label for="Qr2">Our technology budget is done departmentally</label><br />
+            <input type="radio" id="Qr3" name="q5" value="0" /><label for="Qr3">We have a fluctuating expense due to unexpected failures, software updates, staff, etc...</label><br />
+            <input type="radio" id="Qr4" name="q5" value="0" /><label for="Qr4">We have a pretty good handle on it without many surprises.</label><br />
+            <input class="hidden" type="submit" id="submit" />
+        </form>
+
+        <div class="planeDiv">
+            <img class="plane" onclick="fly()" src="Images/buttons/paperPlaneContinue.png" alt="paper plane" />
+        </div>
+    </div>
+    <script src="sGlide/jquery.sglide.2.1.0.min.js"></script>
+    <script src="slider.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Managed IT Campaign</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="mobile.css" />
+    <link rel="stylesheet" href="animate.css" />
+    <script src="jquery-2.1.3.min.js"></script>
+</head>
+
+<body style="background-image:url(Images/Page07.jpg);">
+
+    <div id="content">
+
+        <div class="copy">
+            <p>7 of 7</p>
+            <p>As the leader of my organization, when there is a Technology meeting I am:</p>
+        </div>
+
+        <div id="mySlider"></div>
+
+        <div id="slider">
+            <img class="sliderChoices" src="Images/sliderOptions07.png" alt="four" />
+            <ul>
+                <li class="q5">Not typically involved, because I rarely know what they are talking about</li>
+                <li class="q5">Involved when there is an emergency and we need to spend money</li>
+                <li class="q5">Involved intermittently to understand why and what we need to do</li>
+                <li class="q5">Right in the middle of it and I want to help drive all of our technology plans</li>
+            </ul>
+        </div>
+
+        <form class="mobileChoice" method="get" action="Page9.html">
+            <input type="radio" id="Qr1" name="q7" value="20" /><label for="Qr1">Not typically involved, because I rarely know what they are talking about</label><br />
+            <input type="radio" id="Qr2" name="q7" value="10" /><label for="Qr2">Involved when there is an emergency and we need to spend money</label><br />
+            <input type="radio" id="Qr3" name="q7" value="0" /><label for="Qr3">Involved intermittently to understand why and what we need to do</label><br />
+            <input type="radio" id="Qr4" name="q7" value="0" /><label for="Qr4">Right in the middle of it and I want to help drive all of our technology plans</label><br />
+            <input class="hidden" type="submit" id="submit" />
+        </form>
+
+        <div class="planeDiv">
+                <img class="plane" onclick="fly()" src="Images/buttons/paperPlaneContinue.png">
+            </div>
+    </div>
+    <script src="sGlide/jquery.sglide.2.1.0.min.js"></script>
+    <script src="slider.js"></script>
+    <script src="javascript.js"></script>
+</body>
+</html>
