@@ -101,7 +101,7 @@
         width: 100%;
     }
 
-    .mobileChoice input[type=radio], .mobileChoice label {
+    .mobileChoice label {
         display: block;
         width: 90%;
         margin: auto;
