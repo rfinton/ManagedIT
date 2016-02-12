@@ -106,6 +106,7 @@
         width: 90%;
         margin: auto;
         text-align: left;
+        border: solid 1px darkred;
     }
 
     .sliderChoices {
