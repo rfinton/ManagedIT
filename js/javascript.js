@@ -49,6 +49,6 @@ function fly() {
     }, 600);
     
     $('.mobileChoice label').click(function(ev){
-        ev.currentTarget.style.backgroundColor = "darkred";
+        ev.target.style.backgroundColor = "darkred";
     });
 }
