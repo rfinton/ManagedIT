@@ -49,6 +49,7 @@ function fly() {
     }, 600);
     
     $('.mobileChoice label').click(function(ev){
+        alert(ev);
         ev.target.style.backgroundColor = "darkred";
     });
 }
