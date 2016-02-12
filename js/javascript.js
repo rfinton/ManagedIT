@@ -51,6 +51,5 @@ function fly() {
 }
 
 $('.mobileChoice label').click(function(ev){
-    alert(ev);
-    ev.target.style.backgroundColor = "darkred";
+    ev.currentTarget.style.backgroundColor = "darkred";
 });
