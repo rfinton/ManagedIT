@@ -47,4 +47,8 @@ function fly() {
                 break;
         }
     }, 600);
+    
+    $('.mobileChoice label').click(function(ev){
+        ev.currentTarget.style.backgroundColor = "darkred";
+    });
 }
