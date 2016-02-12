@@ -51,6 +51,6 @@ function fly() {
 }
 
 $('.mobileChoice label').click(function(ev){
-    $('.mobileChoice label').css("backgroundColor", "none");
-    ev.currentTarget.style.backgroundColor = "darkred";
+    $('.mobileChoice label').css("backgroundColor", "transparent");
+    ev.target.style.backgroundColor = "darkred";
 });
