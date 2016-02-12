@@ -1,4 +1,4 @@
-﻿@media screen and (max-device-width:720px) {
+@media screen and (max-device-width:720px) {
 
     body {
         background-position: left top;
@@ -101,7 +101,7 @@
         width: 100%;
     }
 
-    .mobileChoice {
+    .mobileChoice input, .mobileChoice label {
         display: block;
         width: 90%;
         margin: auto;
