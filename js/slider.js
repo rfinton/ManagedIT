@@ -17,7 +17,7 @@ $(document).ready(function () {
             unit: 'px',
             width: 780,
             height: 10,
-            image: '../images/slider.png',
+            image: '../images/slider@2x.png',
             startAt: 0,
             snap: {
                 points: p,
