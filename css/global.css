@@ -83,7 +83,7 @@ div.copy {
     display: none;
 }
 
-.mobileChoice input[type=radio], .mobileChoice label {
+.mobileChoice {
     display:none;
 }
 

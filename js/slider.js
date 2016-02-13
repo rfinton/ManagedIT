@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    alert(window.innerWidth);
     slider = false;
     val = 0;
 
