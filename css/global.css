@@ -111,7 +111,7 @@ div.copy {
 }
 
 .other {
-    display: block;
+    display: inline-block;
 }
 
 .follow_bar {
