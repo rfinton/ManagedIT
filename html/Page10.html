@@ -1,93 +1,95 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Managed IT Campaign</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+        <link rel="stylesheet" href="../css/global.css" />
+        <link rel="stylesheet" href="../css/mobile.css" />
+        <link rel="stylesheet" href="../css/animate.css" />
+        <script data-main="../js/main" src="../js/require-2.1.22.min.js"></script>
+    </head>
 
-<head>
-    <title>Managed IT Campaign</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
-    <link rel="stylesheet" href="../css/global.css" />
-    <link rel="stylesheet" href="../css/mobile.css" />
-    <link rel="stylesheet" href="../css/animate.css" />
-    <script type="text/javascript" src="../js/jquery-2.1.3.min.js"></script>
-</head>
+    <body style="background:url('../images/visionaryWelcome02web.jpg') repeat;">
+        <div id="content">
+            <div class="copy">
+                <p class="p10">Thank you for participating in the survey and we look forward to sharing results. In the meantime, please update your info and enjoy your free downloads below.</p>
 
-<body style="background:url('../images/visionaryWelcome02web.jpg') repeat;">
+                <form id="profile">
+                    <table style="color:white;">
+                        <tr>
+                            <td>
+                                <label class="info" for="firstname">First name:&nbsp;&nbsp;</label>
+                                <input id="firstname" type="text" name="firstname" value="##firstname##" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>        
+                                <label class="info" for="lastname">Last name: </label>
+                                <input id="lastname" type="text" name="lastname" value="##lastname##" />
+                            </td>
+                        </tr>
 
-    <div id="content">
+                        <tr>
+                            <td>        
+                                <label class="info" for="company">Company: </label>
+                                <input id="company" type="text" name="company" value="##company##" />
+                            </td>
+                        </tr>
 
-        <div class="copy">
-            <p class="p10">Thank you for participating in the survey and we look forward to sharing results. In the meantime, please update your info and enjoy your free downloads below.</p>
+                        <tr>
+                            <td>        
+                                <label class="info" for="title">Title: </label>
+                                <input id="title" type="text" name="title" value="##title##" />
+                            </td>
+                        </tr>
 
-            <form id="profile">
-                <table style="color:white;">
+                        <tr>
+                            <td>        
+                                <label class="info" for="email">Email: </label>
+                                <input id="Email" type="text" name="email" value="##email##" />
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input id="submit" type="submit" value="Update Profile" />
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+
+
+                <table>
                     <tr>
                         <td>
-                            <label class="info" for="firstname">First name:&nbsp;&nbsp;</label>
-                            <input id="firstname" type="text" name="firstname" value="##firstname##" />
+                            <img width="60" src="../images/buttons/PDF.png" alt="pdf" />
+                        </td>
+                        <td>
+                            <a href="http://dl.dropboxusercontent.com/u/14320617/ManagedIT/fourQuestions.pdf?dl=1">4 Questions every CEO <br /> should ask about IT</a>
                         </td>
                     </tr>
-                    <tr>
-                        <td>        
-                            <label class="info" for="lastname">Last name: </label>
-                            <input id="lastname" type="text" name="lastname" value="##lastname##" />
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>        
-                            <label class="info" for="company">Company: </label>
-                            <input id="company" type="text" name="company" value="##company##" />
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>        
-                            <label class="info" for="title">Title: </label>
-                            <input id="title" type="text" name="title" value="##title##" />
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>        
-                            <label class="info" for="email">Email: </label>
-                            <input id="Email" type="text" name="email" value="##email##" />
-                        </td>
-                    </tr>
-
                     <tr>
                         <td>
-                            <input id="submit" type="submit" value="Update Profile" />
+                            <img width="60" src="../images/buttons/PDF.png" alt="pdf" />
+                        </td>
+                        <td>
+                            <a href="http://dl.dropboxusercontent.com/u/14320617/ManagedIT/whyOutsource.pdf?dl=1">Why Outsource IT Services?</a>
                         </td>
                     </tr>
                 </table>
-            </form>
-
-
-            <table>
-                <tr>
-                    <td><img width="60" src="../images/buttons/PDF.png" alt="pdf" /></td>
-                    <td><a href="http://dl.dropboxusercontent.com/u/14320617/ManagedIT/fourQuestions.pdf?dl=1">4 Questions every CEO <br /> should ask about IT</a></td>
-                </tr>
-                <tr>
-                    <td><img width="60" src="../images/buttons/PDF.png" alt="pdf" /></td>
-                    <td><a href="http://dl.dropboxusercontent.com/u/14320617/ManagedIT/whyOutsource.pdf?dl=1">Why Outsource IT Services?</a></td>
-                </tr>
-            </table>
-        </div>
-
-        <div id="p15">
-            <p class="p10 p20">Most companies don’t have the resources to keep up with changing technology and the vulnerability of their current setup.  Click on the plane below if you would like to learn more to protect your most valuable asset.</p>
-            
-            <div style="float:left; display:inline-block;">
-                <img id="jdyLogo" src="../images/logo.png" alt="JD Young logo" />
             </div>
-            
-            <div class="planeDiv">
-                <img class="plane" onclick="fly()" src="../images/buttons/paperPlaneContinue.png" alt="paperPlane" />
+
+            <div id="p15">
+                <p class="p10 p20">Most companies don’t have the resources to keep up with changing technology and the vulnerability of their current setup.  Click on the plane below if you would like to learn more to protect your most valuable asset.</p>
+
+                <div style="float:left; display:inline-block;">
+                    <img id="jdyLogo" src="../images/logo.png" alt="JD Young logo" />
+                </div>
+
+                <div class="planeDiv">
+                    <img class="plane" src="../images/buttons/paperPlaneContinue.png" alt="paperPlane" />
+                </div>
             </div>
         </div>
-
-    </div>
-
-    <script type="text/javascript" src="../js/javascript.js"></script>
-</body>
+    </body>
 </html>

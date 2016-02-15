@@ -1,7 +1,6 @@
-$(document).ready(function () {
-    alert(window.innerWidth);
-    slider = false;
-    val = 0;
+define(["jquery", "sglide"], function($){
+    var slider = false;
+    var val = 0;
 
     try {
         p = document.getElementById('sliderChoice1').alt;
