@@ -110,6 +110,7 @@ div.copy {
 
 .other {
     display: inline-block;
+    margin-left: 4px;
 }
 
 .follow_bar {
