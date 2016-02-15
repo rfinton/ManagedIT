@@ -22,14 +22,9 @@
     }
 
     label {
-        display: block;
-        margin-left: 35px;
+        display: inline-block;
+        margin-left: 4px;
     }
-
-    input[type=radio] {
-        float: left;
-    }
-
 
     /* ---------------------------------->IDs */
 
