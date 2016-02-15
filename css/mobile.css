@@ -105,7 +105,7 @@
         width: 100%;
     }
 
-    .mobileChoice label {
+    .mobileChoice {
         display: block;
         width: 90%;
         margin: auto;

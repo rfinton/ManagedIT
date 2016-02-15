@@ -5,7 +5,6 @@ requirejs.config({
         router: "router",
         slider: "slider",
         sglide: "sglide.2.1.0.min",
-        calc: "calc"
     },
     shim: {
         'sglide': { deps: ['jquery'] }
